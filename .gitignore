@@ -1,0 +1,11 @@
+# Terraform files to never commit
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.d/
+.terraform.lock.hcl
+*.tfvars
+
+# OS files
+.DS_Store
+Thumbs.db
